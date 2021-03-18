@@ -1,0 +1,27 @@
+html, body {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.gradient {
+    background: rgb(34,193,195);
+    background: linear-gradient(111deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+#feature ul{
+    list-style-type: none;
+    padding:1rem;
+}
+#feature ul li {
+    background: url(../img/check.svg) no-repeat;
+    padding-left: 2rem;
+    margin: 1rem 0;
+}
+.icon {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    
+}
